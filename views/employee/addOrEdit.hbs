@@ -1,0 +1,31 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/employee" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{employee._id}}">
+    <div class="form-group">
+        <label>Nome</label>
+        <input type="text" class="form-control" name="fullName" placeholder="Insira o nome completo" value="{{employee.fullName}}">
+        <div class="text-danger">
+            {{employee.fullNameError}}</div>
+    </div>
+    <div class="form-group">
+        <label>E-Mail</label>
+        <input type="text" class="form-control" name="email" placeholder="Insira o e-mail do colaborador" value="{{employee.email}}">
+        <div class="text-danger">
+            {{employee.emailError}}</div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Telefone Celular</label>
+            <input type="text" class="form-control" name="mobile" placeholder="(DDD) XXXXX-XXXX" value="{{employee.mobile}}">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Cidade</label>
+            <input type="text" class="form-control" name="city" placeholder="Cidade" value="{{employee.city}}">
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Salvar</button>
+        <a class="btn btn-secondary" href="/employee/list"><i class="fa fa-list-alt"></i> Lista de Colaboradores</a>
+    </div>
+</form>
