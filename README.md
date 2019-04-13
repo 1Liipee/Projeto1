@@ -7,6 +7,6 @@ Em pequenas empresas o tempo dedicado a esse processo não costuma ser alto. Por
 
 Diante desse cenário, o Portal de Colaboradores trás consigo a proposta de centralizar, eliminar arquivos físicos, e agilizar o acesso e a manipulação de dados cadastrais dos funcionários da UNIEURO.
 
-O projeto foi desenvolvido por Felipe Souza de Jesus utilizando HTML, CSS, NodeJS e o banco de dados MongoDB. 
+O projeto foi desenvolvido no Visual Studio Code por Felipe Souza de Jesus utilizando HTML, CSS, NodeJS e o banco de dados MongoDB. 
 
 OBS: Utilizar /employee para acessar a primeira página do sistema.
