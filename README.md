@@ -9,4 +9,6 @@ Diante desse cenário, o Portal de Colaboradores trás consigo a proposta de cen
 
 O projeto foi desenvolvido no Visual Studio Code por Felipe Souza de Jesus utilizando HTML, CSS, NodeJS e o banco de dados MongoDB. 
 
-OBS: Utilizar /employee para acessar a primeira página do sistema.
+Link do sistema: http://bit.ly/2UYmxBI
+
+OBS: Utilizar /employee para acessar em localhost caso o link no replit esteja offline.
